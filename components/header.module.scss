@@ -1,0 +1,107 @@
+.home__charity {
+    color: black;
+    margin-top: 1.56vw;
+
+    span:last-child {
+        color: white;
+        font-family: var(--font-athiti);
+        font-weight: 300;
+    }
+}
+
+.home__logo {
+    margin-top: 4.53vw;
+    font-size: 3em;
+
+    h1 {
+        color: var(--orange-pale-color);
+    }
+
+    span {
+        color: white;
+        position: relative;
+        margin-left: 2rem;
+
+        &::before {
+            content: '';
+            position: absolute;
+            top: 7vw;
+            width: 2.86vw;
+            height: 2.86vw;
+            background: url('../public/img/vk.png');
+            background-size: 2.86vw;
+            cursor: pointer;
+        }
+    }
+}
+
+.header {
+    padding-top: .42vw;
+
+    &.home {
+        background: url('../public/img/home_hero.png');
+        height: 50.52vw;
+        color: white;
+
+        .top {
+            border-bottom-color: white;
+        }
+    }
+
+    &.background {
+        background-color: var(--pink-color);
+    }
+
+    .top {
+        font-family: var(--font-acrom);
+        display: flex;
+        justify-content: space-between;
+        border-bottom: .05vw solid black;
+        padding-bottom: .52vw;
+
+        .contacts {
+            width: 40.94vw;
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: space-between;
+        }
+    }
+
+    .bottom {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        & nav {
+            line-height: 2.5vw;
+            display: flex;
+
+            ul.home {
+                width: 45vw;
+            }
+
+            ul {
+                width: 52.76vw;
+                list-style: none;
+                padding: 0;
+                display: flex;
+                justify-content: space-between;
+                text-transform: uppercase;
+
+                li {
+                    font-size: var(--m-font-size);
+                    font-family: var(--font-amalfi);
+
+                    &:hover {
+                        color: var(--pink-color);
+                    }
+                }
+
+                .dropdown {
+                    display: none;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,22 @@
+.counter {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+
+    .amount {
+        display: flex;
+        gap: .42vw;
+
+        span {
+            font-size: var(--m-font-size);
+            font-family: var(--font-athiti);
+        }
+
+        :not(span:last-child) {
+            background-color: var(--green-color);
+            border-radius: .52vw;
+            font-family: var(--font-amalfi);
+            padding: 0 .9vw;
+        }
+    }
+}

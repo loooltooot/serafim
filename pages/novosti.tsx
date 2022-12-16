@@ -1,8 +1,8 @@
 import Layout from "../components/layout";
 
-export default function Home() {
+export default function NewsPage() {
     return (
-        <Layout isHomePage>
+        <Layout>
 
         </Layout>
     )

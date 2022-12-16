@@ -1,0 +1,16 @@
+.logo {
+    font-family: var(--font-amalfi);
+    color: var(--pink-color);
+
+    h1 {
+        font-size: 4.7em;
+        margin: 0;
+    }
+
+    span {
+        font-size: var(--m-font-size);
+        margin-top: -1vw;
+        display: block;
+        margin-left: 1rem;
+    }
+}
