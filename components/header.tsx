@@ -2,6 +2,8 @@ import CharityCounter from "./charityCounter";
 import Logo from "./logo";
 import styles from './header.module.scss'
 import Link from "next/link";
+import DropdownMenu from "./dropdownMenu";
+import NavBar from "./navBar";
 
 interface IHeader {
     hasBackground?: boolean
@@ -33,34 +35,7 @@ export default function Header({ hasBackground, isHomePage }: IHeader) {
                     ? <Logo />
                     : ''
                 }
-                <nav>
-                    <ul className={ulNavClass}>
-                        <li>
-                            <Link href='/'>
-                                Главная
-                            </Link>
-                        </li>
-                        <li>
-                            <Link href='/novosti'>
-                                Новости
-                            </Link>
-                        </li>
-                        <li className={styles.dropdown}>
-                            <h4>О приюте</h4>
-                            <ul>
-                                <li><Link href=''>О нас</Link></li>
-                                <li><Link href=''>Отчеты</Link></li>
-                                <li><Link href=''>Официальные документы</Link></li>
-                                <li><Link href=''>Реквизиты</Link></li>
-                                <li><Link href=''>Сотрудники</Link></li>
-                            </ul>
-                        </li>
-                        <li><Link href=''>Принимаем детей</Link></li>
-                        <li><Link href=''>Как помочь</Link></li>
-                        <li><Link href=''>Как нас найти</Link></li>
-                        <li><Link href=''>Наши дети</Link></li>
-                    </ul>
-                </nav>
+                <NavBar ulNavClass={ulNavClass} />
                 {isHomePage
                     ? <CharityCounter className={styles.home__charity} />
                     : ''

@@ -1,0 +1,23 @@
+<svg width="110" height="114" viewBox="0 0 110 114" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M21 35C24.866 35 28 31.866 28 28C28 24.134 24.866 21 21 21C17.134 21 14 24.134 14 28C14 31.866 17.134 35 21 35Z" fill="#EEEEEE" stroke="#B0BEC5" stroke-width="2" stroke-miterlimit="10" stroke-linejoin="round"/>
+<path d="M85 88.5999L23.2 83.1999C21 82.9999 19.4 81.0999 19.6 78.8999L22.7 42.9999C22.9 40.7999 24.8 39.1999 27 39.3999L88.8 44.7999C91 44.9999 92.6 46.8999 92.4 49.0999L89.3 84.9999C89.1 87.1999 87.2 88.7999 85 88.5999Z" fill="#B3E5FC" stroke="#90A4AE" stroke-width="2" stroke-miterlimit="10" stroke-linejoin="round"/>
+<path d="M85 69.8999L21 72.0999V26.0999L85 23.8999V69.8999Z" fill="#DCEDC8" stroke="#AFB42B" stroke-width="2" stroke-miterlimit="10" stroke-linejoin="round"/>
+<path d="M84.6768 23.9683L20.9648 30.0486L25.335 75.8416L89.047 69.7613L84.6768 23.9683Z" fill="#DCEDC8" stroke="#AFB42B" stroke-width="2" stroke-miterlimit="10" stroke-linejoin="round"/>
+<path d="M94.3 50.5L92.9 66.4L91 66.2L88 66L77 65C72.6 64.6 69.3 60.7 69.7 56.3C70.1 52.1 73.6 49 77.7 49C77.9 49 78.2 49 78.4 49L87.9 49.8L91 50.1L94.3 50.5Z" fill="#FFA726"/>
+<path d="M85 30C88.3 30 91 32.7 91 36V50.2L87.9 49.9L88 49V36C88 34.3 86.7 33 85 33H19C19 31.3 20.3 30 22 30H85Z" fill="#FFB74D"/>
+<path d="M77 65L88 66V78C88 79.7 86.7 81 85 81H19V33H85C86.7 33 88 34.3 88 36V49L87.9 49.9L78.4 49.1C78.2 49.1 77.9 49.1 77.7 49.1C73.6 49.1 70.1 52.2 69.7 56.4C69.3 60.7 72.6 64.6 77 65Z" fill="#FFA726"/>
+<path d="M85 84H22C20.3 84 19 82.7 19 81H85C86.7 81 88 79.7 88 78V66L91 66.3V78C91 81.3 88.3 84 85 84Z" fill="#FB8C00"/>
+<path d="M91 66.2V78C91 81.3 88.3 84 85 84H22C20.3 84 19 82.7 19 81" stroke="#F57C00" stroke-width="2" stroke-miterlimit="10" stroke-linejoin="round"/>
+<path d="M19 33V81" stroke="#F57C00" stroke-width="2" stroke-miterlimit="10" stroke-linejoin="round"/>
+<path d="M91 50.2V36C91 32.7 88.3 30 85 30H22C20.3 30 19 31.3 19 33" stroke="#F57C00" stroke-width="2" stroke-miterlimit="10" stroke-linejoin="round"/>
+<path d="M88 66V78C88 79.7 86.7 81 85 81H19" stroke="#FFCCBC" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="4 3"/>
+<path d="M88 49V36C88 34.3 86.7 33 85 33H19" stroke="#FBE9E7" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="4 3"/>
+<path d="M91 50.2L94.3 50.5L92.9 66.4L91 66.2L88 66L77 65C72.6 64.6 69.3 60.7 69.7 56.3C70.1 52.1 73.6 49 77.7 49C77.9 49 78.2 49 78.4 49L87.9 49.8L91 50.2Z" stroke="#F57C00" stroke-width="2" stroke-miterlimit="10" stroke-linejoin="round"/>
+<path d="M81 57.5C81 59.2 79.7 60.5 78 60.5" stroke="#FB8C00" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M74 57.5C74 55.3 75.8 53.5 78 53.5" stroke="#FFCC80" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M12 108C18.0751 108 23 103.075 23 97C23 90.9249 18.0751 86 12 86C5.92487 86 1 90.9249 1 97C1 103.075 5.92487 108 12 108Z" fill="#FFE082" stroke="#FFB74D" stroke-width="2" stroke-miterlimit="10" stroke-linejoin="round"/>
+<path d="M25 113C29.9706 113 34 108.971 34 104C34 99.0294 29.9706 95 25 95C20.0294 95 16 99.0294 16 104C16 108.971 20.0294 113 25 113Z" fill="#FFECB3" stroke="#FFAB91" stroke-width="2" stroke-miterlimit="10" stroke-linejoin="round"/>
+<path d="M55 107C58.866 107 62 103.866 62 100C62 96.134 58.866 93 55 93C51.134 93 48 96.134 48 100C48 103.866 51.134 107 55 107Z" fill="#EEEEEE" stroke="#B0BEC5" stroke-width="2" stroke-miterlimit="10" stroke-linejoin="round"/>
+<path d="M100 32C104.971 32 109 27.9706 109 23C109 18.0294 104.971 14 100 14C95.0294 14 91 18.0294 91 23C91 27.9706 95.0294 32 100 32Z" fill="#FFECB3" stroke="#FFAB91" stroke-width="2" stroke-miterlimit="10" stroke-linejoin="round"/>
+<path d="M69 15C72.866 15 76 11.866 76 8C76 4.13401 72.866 1 69 1C65.134 1 62 4.13401 62 8C62 11.866 65.134 15 69 15Z" fill="#EEEEEE" stroke="#B0BEC5" stroke-width="2" stroke-miterlimit="10" stroke-linejoin="round"/>
+</svg>

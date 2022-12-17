@@ -1,0 +1,26 @@
+.nav {
+    line-height: 2.5vw;
+    display: flex;
+
+    ul {
+        width: 52.76vw;
+        list-style: none;
+        padding: 0;
+        display: flex;
+        justify-content: space-between;
+        text-transform: uppercase;
+
+        li {
+            font-size: var(--m-font-size-relative);
+            font-family: var(--font-amalfi);
+
+            &:hover {
+                color: var(--pink-color);
+
+                li {
+                    color: white;
+                }
+            }
+        }
+    }
+}

@@ -13,7 +13,8 @@
 @font-face {
     font-family: 'Athiti';
     src: url('../public/Athiti/Athiti-Regular.5a140806.ttf'),
-        url('../public/Athiti/Athiti-Light.280eee53.ttf');
+        url('../public/Athiti/Athiti-Light.280eee53.ttf'),
+        url('../public/Athiti/Athiti-Bold.69921a86.ttf');
 }
 
 section,
@@ -47,7 +48,8 @@ a {
     --font-athiti: 'Athiti', sans-serif;
 
     --base-font-size: 1.04vw;
-    --m-font-size: 2em;
+    --m-font-size-not-relative: 2.08vw;
+    --m-font-size-relative: 2em;
     --header-font-size: 5.55em;
     --x-font-size: 12.35em;
 
@@ -57,4 +59,25 @@ a {
     --pink-color: #FFC5D2;
     --orange-pale-color: #FFDEC5;
     --pink-pale-color: #F0E7E5;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-weight: 400;
+    font-family: var(--font-amalfi);
+    margin: 0;
+}
+
+h2 {
+    font-size: var(--header-font-size);
+}
+
+p {
+    font-family: var(--font-acrom);
+}
+
+button {
+    font-family: var(--font-amalfi);
 }

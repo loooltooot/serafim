@@ -1,0 +1,69 @@
+.footer {
+    position: relative;
+
+    .top {
+        display: flex;
+        border-bottom: 1px black solid;
+        justify-content: space-between;
+        padding-bottom: 7.45vw;
+        padding-top: 1vw;
+
+        &>div:nth-child(1) {
+            font-size: 1.5em;
+
+            h1 {
+                color: black;
+
+                &~span {
+                    color: black;
+                }
+            }
+        }
+
+        &>div:nth-child(2) {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+
+            nav ul {
+                width: 46.88vw;
+
+                li:hover {
+                    color: white;
+                }
+            }
+        }
+    }
+
+    .credits {
+        text-align: right;
+        padding-top: 1vw;
+        padding-bottom: 1vw;
+    }
+
+    .bg__left,
+    .bg__right {
+        height: 100%;
+        position: absolute;
+        background-color: var(--green-color);
+        width: 36.93vw;
+        top: 0;
+        left: 0;
+        z-index: -1;
+    }
+
+    .bg__right {
+        background-color: var(--pink-color);
+        width: 63.07vw;
+        right: 0;
+        left: auto;
+    }
+
+    .contacts {
+        font-family: var(--font-acrom);
+        display: flex;
+        flex-direction: column;
+        text-align: right;
+        row-gap: .5vw;
+    }
+}

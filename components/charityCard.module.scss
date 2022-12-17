@@ -1,0 +1,42 @@
+.card {
+    width: 100%;
+    margin: 6.25vw 0;
+    padding: 2.92vw 2.29vw;
+    background: var(--orange-pale-color) url('../public/img/charityBg.png') no-repeat 90% center;
+    background-size: 23.7vw 100%;
+
+    p {
+        width: 33.39vw;
+    }
+
+    button {
+        border: none;
+        background: none;
+        margin: 1vw 0;
+        position: relative;
+
+        span {
+            font-size: var(--m-font-size-relative);
+        }
+
+        a {
+            img {
+                position: absolute;
+            }
+
+            img:nth-child(2) {
+                width: 4.11vw;
+                height: .83vw;
+                top: 2.3vw;
+                right: -2vw;
+            }
+
+            img:last-child {
+                width: 5vw;
+                height: 5vw;
+                right: -7vw;
+                top: -1vw;
+            }
+        }
+    }
+}
