@@ -1,4 +1,4 @@
-import CharityCard from "./charityCard";
+import CharityCard from "../charityCard";
 
 export default function CharitySection() {
     return (

@@ -16,7 +16,8 @@
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "sass": "^1.56.2",
-    "scss": "^0.2.4"
+    "scss": "^0.2.4",
+    "sharp": "^0.31.2"
   },
   "devDependencies": {
     "@types/node": "18.11.17",

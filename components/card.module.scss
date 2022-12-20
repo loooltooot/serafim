@@ -1,4 +1,68 @@
 .card {
     background-color: var(--orange-pale-color);
     border-radius: 1.56vw;
+    box-sizing: border-box;
+}
+
+.card__interactive {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 16.41vw;
+    height: 24.84vw;
+    position: relative;
+    padding: 2.81vw 1.15vw;
+    transition: box-shadow .2s ease;
+
+    h3 {
+        font-size: var(--sub-header-font-size);
+        color: var(--pink-color);
+    }
+
+    span {
+        font-family: var(--font-acrom);
+        color: white;
+    }
+
+    .arrow {
+        width: 1.15vw;
+        height: 1.15vw;
+        position: absolute;
+        right: 1.15vw;
+        bottom: 1.77vw;
+    }
+
+    .bg {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 1;
+    }
+
+    :not(.bg) {
+        z-index: 3;
+    }
+
+    &::before {
+        content: '';
+        background-color: rgba(0, 0, 0, .35);
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 2;
+        border-radius: 1.56vw;
+        transition: background-color .2s ease;
+    }
+
+    &:hover {
+        box-shadow: 0 1vw 3vw -0.83vw rgba($color: #000000, $alpha: .25);
+
+        &::before {
+            background-color: rgba($color: #86696f, $alpha: .5);
+        }
+    }
 }
