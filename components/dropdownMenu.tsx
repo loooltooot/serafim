@@ -18,11 +18,11 @@ export default function DropdownMenu() {
         >
             <h4>О приюте</h4>
             <ul className={classes.join(' ')}>
-                <li><Link href=''>О нас</Link></li>
-                <li><Link href=''>Отчеты</Link></li>
-                <li><Link href=''>Официальные документы</Link></li>
-                <li><Link href=''>Реквизиты</Link></li>
-                <li><Link href=''>Сотрудники</Link></li>
+                <li><Link href='/onas'>О нас</Link></li>
+                <li><Link href='/otchety'>Отчеты</Link></li>
+                <li><Link href='/documenty'>Официальные документы</Link></li>
+                <li><Link href='/recvizity'>Реквизиты</Link></li>
+                <li><Link href='/sotrudniki'>Сотрудники</Link></li>
             </ul>
         </li>
     )

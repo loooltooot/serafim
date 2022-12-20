@@ -21,10 +21,10 @@ export default function NavBar({ ulNavClass }: INavBar) {
                     </Link>
                 </li>
                 <DropdownMenu />
-                <li><Link href=''>Принимаем детей</Link></li>
-                <li><Link href=''>Как помочь</Link></li>
-                <li><Link href=''>Как нас найти</Link></li>
-                <li><Link href=''>Наши дети</Link></li>
+                <li><Link href='/prinimaem-detey'>Принимаем детей</Link></li>
+                <li><Link href='/kak-pomoch'>Как помочь</Link></li>
+                <li><Link href='/kak-nayti'>Как нас найти</Link></li>
+                <li><Link href='/nashi-deti'>Наши дети</Link></li>
             </ul>
         </nav>
     )
