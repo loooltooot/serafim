@@ -1,0 +1,29 @@
+.shelter {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0 3.13vw 3.13vw;
+    background: var(--orange-pale-color) url('../../public/img/landingFactsBg.png') no-repeat right center / 36.82vw 22.45vw;
+
+    .factsList {
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        gap: 1.15vw;
+        width: 20.83vw;
+        padding-left: 2.76vw;
+
+        li {
+            position: relative;
+        }
+
+        li::before {
+            content: '';
+            position: absolute;
+            left: -2.76vw;
+            top: .3vw;
+            width: 1.72vw;
+            height: 1.51vw;
+            background: url('../../public/img/heart.svg') no-repeat center / 100%;
+        }
+    }
+}

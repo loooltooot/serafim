@@ -2,17 +2,18 @@
 import { latestNews } from "../../data/news"; 
 
 import CoolButton from "../coolButton";
+import HeaderWithButton from "../headerWithButton";
 import NewsCard from "../newsCard";
 import styles from './newsSection.module.scss'
 
 export default function NewsSection() {
     return (
         <section className={styles.section}>
-            <div>
-                <h2>Новости</h2>
-                <p>Есть много вариантов Lorem Ipsum, но большинство из них имеет не всегда приемлемые модификации, например</p>
-                <CoolButton title="Подробнее" href="/novosti" />
-            </div>
+            <HeaderWithButton 
+                title="Новости" 
+                content="Есть много вариантов Lorem Ipsum, но большинство из них имеет не всегда приемлемые модификации, например" 
+                href="/novosti"
+            />
             <ul className={styles.latestNews}>
                 {latestNews.map((item, index) => (
                     <li key={index}>
