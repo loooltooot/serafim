@@ -1,23 +1,23 @@
-import Image from "next/image";
-import Link from "next/link";
-import Card from "./card";
 import styles from './card.module.scss'
+import Card from "./card";
+import Link from 'next/link';
+import Image from 'next/image';
 
-interface INewsCard {
-    title: string
-    date: string
-    img: string
+interface IChildCard {
+    name: string
+    age: number
+    dream: string
     id: string
 }
 
-export default function NewsCard({title, date, img, id}: INewsCard) {
+export default function ChildCard({name, age, dream, id}: IChildCard) {
     return (
-        <Link href={'/news/' + id}>
-            <Card className={styles.card__interactive}>
-                <h3>{title}</h3>
-                <span>{date}</span>
+        <Link href={'/deti/' + id}>
+            <Card className={styles.card__interactive + ' ' + styles.childCard}>
+                <h3>{name + ` (${age} лет)`}</h3>
+                <span>{dream}</span>
                 <Image 
-                    src='/img/arrowButtonWhite.svg'
+                    src='/img/arrowButton.svg'
                     width={22}
                     height={22}
                     alt='Подробнее'
@@ -25,7 +25,7 @@ export default function NewsCard({title, date, img, id}: INewsCard) {
                     loading="lazy"
                 />
                 <Image 
-                    src={'/img/newsBgs/' + img}
+                    src={'/img/children/' + id + '.png'}
                     width={315}
                     height={477}
                     alt='Обложка новости'

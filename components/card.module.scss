@@ -65,4 +65,28 @@
             background-color: rgba($color: #86696f, $alpha: .5);
         }
     }
+
+    &.childCard {
+        padding-bottom: .94vw;
+        overflow: clip;
+
+        * {
+            color: black;
+        }
+
+        span {
+            height: 4.79vw;
+        }
+
+        &::before {
+            background: linear-gradient(0deg, var(--pink-color) 0%, rgba(255, 197, 210, 0) 64.88%);
+            border-radius: 0;
+        }
+
+        &:hover {
+            &::before {
+                background: linear-gradient(0deg, var(--green-color) 0%, rgba(255, 197, 210, 0) 64.88%);
+            }
+        }
+    }
 }

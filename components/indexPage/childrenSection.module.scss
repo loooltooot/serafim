@@ -1,0 +1,36 @@
+.section {
+    background: url('../../public/img/landingDetiBg.png') no-repeat center / 100%;
+    padding-top: 15.8vw;
+    padding-bottom: 17.83vw;
+    box-sizing: border-box;
+
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    ul {
+        display: flex;
+        list-style: none;
+        padding: 0;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        row-gap: 2.6vw;
+
+        li:nth-child(5) {
+            position: relative;
+
+            &::before {
+                content: '';
+                width: 10.31vw;
+                height: 8.46vw;
+                background: url('../../public/img/bird.png') no-repeat center / 100%;
+                position: absolute;
+                left: -7.8vw;
+                bottom: 4.4vw;
+                z-index: 5;
+            }
+        }
+    }
+}
