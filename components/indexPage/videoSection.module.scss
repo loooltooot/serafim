@@ -1,0 +1,35 @@
+.videoSection {
+	display: flex;
+	justify-content: space-between;
+	gap: 1vw;
+
+	iframe {
+		width: 29.17vw;
+		height: 16.41vw;
+		border: none;
+		border-radius: 1.56vw;
+	}
+
+	& > div:first-child {
+		width: 25vw;
+		margin-top: -1.56vw;
+	}
+
+	& > div:last-child {
+		width: 30.83vw;
+
+		h2 {
+			font-size: 2.85em;
+			text-transform: uppercase;
+			margin-bottom: 0.42vw;
+		}
+
+		button {
+			background-color: var(--pink-color);
+
+			&:hover {
+				background-color: var(--orange-pale-color);
+			}
+		}
+	}
+}

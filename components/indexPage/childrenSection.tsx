@@ -15,11 +15,11 @@ export default function ChildrenSection() {
             <ul>
                 {children.map((child, index) => (
                     <li key={index}>
-                        <ChildCard 
-                            name={child.name} 
-                            age={child.age} 
-                            dream={child.dream} 
-                            id={child.id} 
+                        <ChildCard
+                            name={child.name}
+                            age={child.age}
+                            dream={child.dream}
+                            id={child.id}
                         />
                     </li>
                 ))}
