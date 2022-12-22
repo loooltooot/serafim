@@ -1,0 +1,57 @@
+.slider {
+	position: relative;
+	overflow-x: clip;
+
+	.controls {
+		display: flex;
+		margin: 0 auto;
+		width: fit-content;
+		align-items: center;
+		gap: 0.68vw;
+
+		button {
+			border: none;
+			cursor: pointer;
+		}
+
+		& > button {
+			width: 1.51vw;
+			height: 0.8vw;
+		}
+
+		& > button:first-child {
+			background: url("../../public/img/sliderLeft.svg") no-repeat center /
+				100%;
+		}
+
+		& > button:last-child {
+			background: url("../../public/img/sliderRigth.svg") no-repeat center /
+				100%;
+		}
+
+		ul {
+			display: flex;
+			justify-content: space-between;
+			list-style: none;
+			padding: 0;
+			gap: 0.68vw;
+
+			button {
+				width: 2.29vw;
+				height: 2.1vw;
+				background: url("../../public/img/heart.svg") no-repeat center /
+					100%;
+				font-size: 1.5em;
+			}
+		}
+	}
+
+	.inner {
+		width: fit-content;
+		display: flex;
+
+		.slide {
+			width: 68.75vw;
+		}
+	}
+}

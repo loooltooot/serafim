@@ -1,89 +1,89 @@
 .home__charity {
-    color: black;
-    margin-top: 1.56vw;
+	color: black;
+	margin-top: 1.56vw;
 
-    span:last-child {
-        color: white;
-        font-family: var(--font-athiti);
-        font-weight: 300;
-    }
+	span:last-child {
+		color: white;
+		font-family: var(--font-athiti);
+		font-weight: 300;
+	}
 }
 
 .home__logo {
-    margin-top: 4.53vw;
-    font-size: 3em;
+	margin-top: 4.53vw;
+	font-size: 3em;
 
-    h1 {
-        color: var(--orange-pale-color);
-    }
+	h1 {
+		color: var(--orange-pale-color);
+	}
 
-    span {
-        color: white;
-        position: relative;
-        margin-left: 2rem;
+	span {
+		color: white;
+		position: relative;
+		margin-left: 2rem;
 
-        &::before {
-            content: '';
-            position: absolute;
-            top: 7vw;
-            width: 2.86vw;
-            height: 2.86vw;
-            background: url('../public/img/vk.png');
-            background-size: 2.86vw;
-            cursor: pointer;
-        }
-    }
+		&::before {
+			content: "";
+			position: absolute;
+			top: 7vw;
+			width: 2.86vw;
+			height: 2.86vw;
+			background: url("../public/img/vk.png");
+			background-size: 2.86vw;
+			cursor: pointer;
+		}
+	}
 }
 
 .header {
-    padding-top: .42vw;
+	padding-top: 0.42vw;
 
-    &.home {
-        background: url('../public/img/home_hero.png');
-        background-size: 100%;
-        height: 50.52vw;
-        color: white;
+	&.home {
+		background: url("../public/img/home_hero.png");
+		background-size: 100%;
+		height: 50.52vw;
+		color: white;
 
-        .top {
-            border-bottom-color: white;
-        }
-    }
+		.top {
+			border-bottom-color: white;
+		}
+	}
 
-    &.background {
-        background-color: var(--pink-color);
+	&.background {
+		background-color: var(--pink-pale-color);
 
-        h1,
-        h1~span {
-            color: white;
-        }
-    }
+		h1,
+		h1 ~ span {
+			color: black;
+		}
+	}
 
-    .top {
-        font-family: var(--font-acrom);
-        display: flex;
-        justify-content: space-between;
-        border-bottom: .05vw solid black;
-        padding-bottom: .52vw;
+	.top {
+		font-family: var(--font-acrom);
+		display: flex;
+		justify-content: space-between;
+		border-bottom: 0.05vw solid black;
+		padding-bottom: 0.52vw;
 
-        .contacts {
-            width: 40.94vw;
-            list-style: none;
-            padding: 0;
-            display: flex;
-            justify-content: space-between;
-        }
-    }
+		.contacts {
+			width: 40.94vw;
+			list-style: none;
+			padding: 0;
+			display: flex;
+			justify-content: space-between;
+		}
+	}
 
-    .bottom {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        padding-bottom: 1.15vw;
+	.bottom {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		padding-bottom: 1.15vw;
 
-        & nav {
-            ul.home {
-                width: 48vw;
-            }
-        }
-    }
+		& nav {
+			ul.home {
+				width: 48vw;
+			}
+		}
+	}
 }
