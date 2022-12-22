@@ -1,90 +1,139 @@
-@use 'error404';
+@use "error404";
 
 @font-face {
-    font-family: 'Acrom';
-    src: url('../public/Acrom/Acrom-Regular.72592368.ttf'),
-        url('../public/Acrom/Acrom-Light.acf35e7c.ttf');
+	font-family: "Acrom";
+	src: url("../public/Acrom/Acrom-Regular.72592368.ttf"),
+		url("../public/Acrom/Acrom-Light.acf35e7c.ttf");
 }
 
 @font-face {
-    font-family: 'Amalfi';
-    src: url('../public/Amalfi/Amalfi-Regular.88d1d48d.woff') format('woff'),
-        url('../public/Amalfi/Amalfi-Regular.4c78008e.woff2') format('woff2');
+	font-family: "Amalfi";
+	src: url("../public/Amalfi/Amalfi-Regular.88d1d48d.woff") format("woff"),
+		url("../public/Amalfi/Amalfi-Regular.4c78008e.woff2") format("woff2");
 }
 
 @font-face {
-    font-family: 'Athiti';
-    src: url('../public/Athiti/Athiti-Regular.5a140806.ttf'),
-        url('../public/Athiti/Athiti-Light.280eee53.ttf'),
-        url('../public/Athiti/Athiti-Bold.69921a86.ttf');
+	font-family: "Athiti";
+	src: url("../public/Athiti/Athiti-Regular.5a140806.ttf"),
+		url("../public/Athiti/Athiti-Light.280eee53.ttf"),
+		url("../public/Athiti/Athiti-Bold.69921a86.ttf");
 }
 
 section,
 .side__padding {
-    padding: var(--side-padding);
+	padding: var(--side-padding);
 }
 
 a {
-    text-decoration: none;
-    color: inherit;
-    font-size: inherit;
+	text-decoration: none;
+	color: inherit;
+	font-size: inherit;
 }
 
 * {
-    font-size: var(--base-font-size);
+	font-size: var(--base-font-size);
 }
 
 ::selection {
-    background: var(--pink-color);
-    color: black;
+	background: var(--pink-color);
+	color: black;
 }
 
 ::-moz-selection {
-    background: var(--pink-color);
-    color: black;
+	background: var(--pink-color);
+	color: black;
 }
 
 :root {
-    --font-acrom: 'Acrom', sans-serif;
-    --font-amalfi: 'Amalfi', cursive;
-    --font-athiti: 'Athiti', sans-serif;
+	--font-acrom: "Acrom", sans-serif;
+	--font-amalfi: "Amalfi", cursive;
+	--font-athiti: "Athiti", sans-serif;
 
-    --base-font-size: 1.04vw;
-    --m-font-size-not-relative: 2.08vw;
-    --m-font-size-relative: 2em;
-    --sub-header-font-size: 2.85em;
-    --header-font-size: 5.55em;
-    --x-font-size: 12.35em;
+	--base-font-size: 1.04vw;
+	--m-font-size-not-relative: 2.08vw;
+	--m-font-size-relative: 2em;
+	--sub-header-font-size: 2.85em;
+	--header-font-size: 5.55em;
+	--x-font-size: 12.35em;
 
-    --side-padding: 0 15.63vw;
+	--side-padding: 0 15.63vw;
 
-    --green-color: #BEE4D6;
-    --pink-color: #FFC5D2;
-    --orange-pale-color: #FFDEC5;
-    --pink-pale-color: #F0E7E5;
+	--green-color: #bee4d6;
+	--pink-color: #ffc5d2;
+	--orange-pale-color: #ffdec5;
+	--pink-pale-color: #f0e7e5;
 }
 
 h1,
 h2,
 h3,
 h4 {
-    font-weight: 400;
-    font-family: var(--font-amalfi);
-    margin: 0;
+	font-weight: 400;
+	font-family: var(--font-amalfi);
+	margin: 0;
 }
 
 h2 {
-    font-size: var(--header-font-size);
+	font-size: var(--header-font-size);
 }
 
 p {
-    font-family: var(--font-acrom);
+	font-family: var(--font-acrom);
 }
 
 button {
-    font-family: var(--font-amalfi);
+	font-family: var(--font-amalfi);
 }
 
 section {
-    margin: 6.25vw 0;
+	margin: 6.25vw 0;
+}
+
+#disclaimer {
+	width: 100vw;
+	height: 100vh;
+	background-color: rgba(0, 0, 0, 0.95);
+	backdrop-filter: blur(0.83vw);
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 100;
+	margin: 0;
+	box-sizing: border-box;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-top: 5.21vw;
+	padding-bottom: 5.21vw;
+	text-transform: uppercase;
+
+	* {
+		font-family: Arial, Helvetica, sans-serif;
+	}
+
+	h2 {
+		color: red;
+	}
+
+	p {
+		color: white;
+		width: 39.06vw;
+		line-height: 150%;
+		text-align: justify;
+		margin: 3vw;
+	}
+
+	button {
+		border: 0.21vw red solid;
+		background: none;
+		color: white;
+		padding: 1.04vw 2.08vw;
+		font-size: var(--m-font-size-not-relative);
+		margin-top: 10.42vw;
+		cursor: pointer;
+
+		&:hover {
+			background-color: red;
+		}
+	}
 }
