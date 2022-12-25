@@ -5,12 +5,14 @@ import NewsFullList from "./newsFullList";
 import styles from "./slider.module.scss";
 
 export default function Slider() {
+	// считаем количество страниц в слайдере
 	const numberOfPages = Math.ceil(latestNews.length / 8);
 	const slides = generateSlides(numberOfPages);
 	const [page, setPage] = useState(0);
 	const pageButtons = generatePageButtons(numberOfPages, setPage);
 
-	/* Это хук, который возвращает кешированное значение. Он вызывается только при изменении 'page'. */
+	/* Это хук, который возвращает кешированное значение. 
+	Он вызывается только при изменении 'page'. */
 	const innerTranslate = useMemo(() => {
 		return `translateX(-${68.75 * page}vw)`;
 	}, [page]);
@@ -25,6 +27,7 @@ export default function Slider() {
 					willChange: "transform",
 				}}
 			>
+				{/* выводим список слайдов */}
 				{slides.map((slide) => slide)}
 			</div>
 			<div className={styles.controls}>
@@ -33,7 +36,11 @@ export default function Slider() {
 					onClick={() => minusPage()}
 				></button>
 
-				<ul>{pageButtons.map((button) => button)}</ul>
+				<ul>
+					{/* выводим сгенерированные кнопки 
+					для перехода по страницам */}
+					{pageButtons.map((button) => button)}
+				</ul>
 
 				<button
 					className={styles.arrowButton}
